@@ -21,3 +21,7 @@ Keyring bootstrap osd
 ceph-authtool --create-keyring /var/lib/ceph/bootstrap-osd/ceph.keyring --gen-key -n client.bootstrap-osd --cap mon 'profile bootstrap-osd' --cap mgr 'allow r'
 
 creating /var/lib/ceph/bootstrap-osd/ceph.keyring
+
+
+****
+Вынести в cluster_network из публичной сети
