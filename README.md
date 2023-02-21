@@ -1,5 +1,7 @@
 # ceph-deploy-lab
 
+uuidgen для генерации fsid
+
 Keyring create mon
 
 ceph-authtool --create-keyring /tmp/ceph.mon.keyring --gen-key -n mon. --cap mon 'allow +'
